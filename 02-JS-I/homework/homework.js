@@ -71,11 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( str1.lenght === str2.lenght) {
-    return true;
-    } else {
-      return false;
-    }
+  return str1.lenght === str2.lenght;
 }
 
 function menosQueNoventa(num) {
@@ -162,7 +158,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Mat.random ();
+  return Mat.random (0,1);
 }
 
 function esPositivo(numero) {
@@ -175,7 +171,7 @@ function esPositivo(numero) {
   } else if (numero > 0) {
     return "Es positivo";
   } else {
-    return false;
+    return "Es negativo";
   }
 }
 
@@ -218,7 +214,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-return base * altura;
+return (base * altura) /2;
 }
 
 
