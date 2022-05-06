@@ -116,7 +116,11 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
  
   // Tu código:
-if (numero % 1 === 0 ) return true;
+if (numero % 1 === 0 ) {
+  return true;
+}else {
+  return false;
+}
 }
 
 function fizzBuzz(numero) {
