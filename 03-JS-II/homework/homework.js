@@ -118,9 +118,8 @@ function esEntero(numero) {
   // Tu código:
 if (numero % 1 === 0 ) {
   return true;
-}else {
-  return false;
 }
+  return false;
 }
 
 function fizzBuzz(numero) {
