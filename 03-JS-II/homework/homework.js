@@ -117,6 +117,7 @@ function esEntero(numero) {
  
   // Tu código:
 if (numero % 1 === 0 ) return true;
+}
 
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
