@@ -178,10 +178,10 @@ function esPrimo(numero) {
   }
   var i = 2;
   for (i; i <= numero; i) {
-    if (numero % i === 0) {
-      return false;
-    } else if (numero === i) {
+    if (numero === i) {
       return true;
+    } else if (numero % i === 0) {
+      return false;
     }
     i++
   }
