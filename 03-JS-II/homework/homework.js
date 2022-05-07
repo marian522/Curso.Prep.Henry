@@ -227,10 +227,10 @@ function doWhile(numero) {
   let result = '';
   let i = 0
   do {
-    i = i+5;
+    i = numero+5;
     result = result +i;
     //CoSAS
-  } while (i < 8)
+  }while (i < 8)
 }
 
 
