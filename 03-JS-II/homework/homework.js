@@ -224,11 +224,11 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  let result = '';
-  let i = 0
+  var numero = '';
+  var i = 0
   do {
-    i = numero+5;
-    result = result +i;
+    i =i+1 ; 
+    numero = numero + 5;
     //CoSAS
   }while (i < 8)
 }
