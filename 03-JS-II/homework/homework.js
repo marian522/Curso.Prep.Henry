@@ -230,6 +230,7 @@ function doWhile(numero) {
     i++;
     numero = numero + 5;
   } while (i < 9)
+  return (numero);
 }
 
 
