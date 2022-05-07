@@ -177,15 +177,17 @@ function esPrimo(numero) {
     return true;
   }
   var i = 2;
-  for (i; i <= numero; i++) {
+  for (i; i <= numero; i) {
     if (numero % i === 0) {
       return false;
-    } else {
-      return true
+    } else if (numero === i) {
+      return true;
     }
-
+    i++
   }
+
 }
+
 
 function esVerdadero(valor) {
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
