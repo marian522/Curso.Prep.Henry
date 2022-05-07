@@ -177,13 +177,13 @@ function esPrimo(numero) {
     return true;
   }
   var i = 2;
-  for (i; i <= numero; i) {
+  for (i = 2; i <= numero; i++) {
     if (numero === i) {
       return true;
     } else if (numero % i === 0) {
       return false;
     }
-    i++
+
   }
 
 }
@@ -206,15 +206,18 @@ function tablaDelSeis() {
   //Escribe tu código aquí   
   var tablaDelSeis = [];
   for (i = 1; i < 11; i++) {
-    tablaDelSeis.push(i * 6)
-  }
-  return tablaDelSeis;
+    tablaDelSeis.push(6 * i)
+  } return tablaDelSeis
 }
 
 function tieneTresDigitos(numero) {
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-
+if ( numero.length === 3){
+  return true;
+} else {
+  return false
+}
 }
 
 function doWhile(numero) {
