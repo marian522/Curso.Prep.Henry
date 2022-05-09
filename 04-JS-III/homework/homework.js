@@ -26,9 +26,9 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  var masUno = []
+  var masUno = [];
   for (var i = 0; i < array.length; i++) {
-    masUno [i] = array[i]++
+    masUno[i] = array[i]++
   }
   return masUno;
 }
@@ -59,7 +59,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-return palabras.join ( " " );
+  return palabras.join(" ");
 }
 
 
@@ -67,7 +67,7 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  array.includes ( elemento);
+  array.includes(elemento);
 }
 
 
@@ -75,7 +75,7 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
- 
+
 }
 
 
