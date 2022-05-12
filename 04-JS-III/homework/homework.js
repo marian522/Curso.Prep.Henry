@@ -67,8 +67,8 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  for ( var i=0; i< array.length; i++){
-    if (array[i] === elemento){
+  for (var i = 0; i < array.length; i++) {
+    if (array[i] === elemento) {
       return true;
     }
   }
@@ -80,11 +80,11 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-var sum =0
-for ( var i =0; i < numeros.length; i++)
-sum += numeros[i]; {
-  return sum
-}
+  var sum = 0
+  for (var i = 0; i < numeros.length; i++)
+    sum += numeros[i]; {
+    return sum
+  }
 }
 
 
@@ -92,6 +92,13 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  var total = 0;
+  for (var i = 0; i < resultsTest.length; i++) {
+    total = total + resultsTest[i];
+  }
+  var AverageTotal = total / resultsTest.length;
+
+  return AverageTotal;
 }
 
 
@@ -112,7 +119,10 @@ function multiplicarArgumentos() {
 function cuentoElementos(arreglo) {
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
-
+  var mayor = 0
+  for (var i = 0; i < arreglo.length; i++) {
+    if (arreglo[i] > 18)
+}
 }
 
 
