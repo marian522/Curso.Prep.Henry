@@ -93,10 +93,10 @@ function promedioResultadosTest(resultadosTest) {
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
   var total = 0;
-  for (var i = 0; i < resultadoTest.length; i++) {
-    total = total + resultadoTest[i];
+  for (var i = 0; i < resultadosTest.length; i++) {
+    total = total + resultadosTest[i];
   }
-  var AverageTotal = total / resultadoTest.length;
+  var AverageTotal = total / resultadosTest.length;
 
   return AverageTotal;
 }
