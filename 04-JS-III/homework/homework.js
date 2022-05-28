@@ -129,7 +129,7 @@ function cuentoElementos(arreglo) {
   //Escribe tu código aquí
   var mayorA =0
   for (var i=0; i<arreglo.length;i++){
-    if (arreglo[i]>19){
+    if (arreglo[i]>18){
       mayorA++
     }
   }
