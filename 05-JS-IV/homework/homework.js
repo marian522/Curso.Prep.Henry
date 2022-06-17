@@ -115,7 +115,7 @@ function agregarAmigo(usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // // Tu código:
-  usuario.amigo = nuevoAmigo.push;
+  usuario.amigos = nuevoAmigo.push;
   return usuario;
 }
 
